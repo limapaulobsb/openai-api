@@ -1,0 +1,29 @@
+{
+  "name": "openai-api",
+  "version": "0.0.1",
+  "description": "Endpoints for OpenAI API requests",
+  "keywords": [
+    "node",
+    "express",
+    "OpenAI",
+    "API"
+  ],
+  "author": "Paulo Henrique Lima",
+  "license": "MIT",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "nodemon": "^2.0.22"
+  }
+}
